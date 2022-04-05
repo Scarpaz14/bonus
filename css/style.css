@@ -1,0 +1,119 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER-------  */
+.header-top{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.restocks-logo{
+    height:30px;
+    color:white;
+}
+
+.bar-menu, .btn-users, .sell{
+    background-color: black;
+    color:white; 
+}
+
+.header-left, .header-right{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.btn-languages,.btn-currency{
+    border:none;
+    background-color: black;
+    color:white;
+    padding: 0 15px;
+  
+}
+
+.header-right{
+    justify-content: flex-end;
+}
+
+.logo{
+    width: 50%;
+    text-align: center;
+}
+
+.bar-menu{
+    display: inline-block;
+    font-size: 30px;
+    border:none;
+}
+.btn-menu{
+    display: none;
+    margin: auto;
+    
+}
+
+.btn-users{
+    font-size: 20px;
+    border:none;
+    margin-right: 20px;
+}
+
+.sell{
+    padding: 10px 20px;
+    border-radius: 35px;
+    border: 0.5px solid white;
+}
+
+.header-bottom{
+    padding:20px 5px;
+    display: flex;
+}
+
+.search-bar{
+    border: none;
+    margin-left:5px;
+}
+.main-nav-left, .main-nav-right{
+    display: none;
+    width: 50%;
+}
+
+.main-nav-right ul{
+    justify-content: flex-end;
+}
+.main-nav-right ul{
+    display: flex;
+    list-style: none;
+
+}
+.main-nav-left ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    padding: 0 20px;
+    text-decoration: none;
+    color:black;
+    font-weight: 900;
+}
+
+
+@media screen and (min-width: 768px){
+    .main-nav-left, .main-nav-right{
+        display: block;
+    }
+    .search-bar, .magnifying-glass{
+        display: none;
+    }
+    .btn-menu{
+    display:flex;
+    }
+
+    .bar-menu{
+        display: none;
+    }
+}
